@@ -1,5 +1,5 @@
 {
-  "name": "contentful-in-storybook-addon",
+  "name": "Contentful in storybook",
   "version": "1.0.0",
   "description": "A Storybook addon to design with Contentful data",
   "main": "dist/preset.js",
@@ -9,7 +9,17 @@
     "build-storybook": "build-storybook"
   },
   "files": ["dist/**/*", "README.md", "*.js"],
-  "keywords": ["storybook", "addons"],
+  "keywords": ["storybook", "addons", "contentful"],
+  "storybook": {
+    "displayName": "Contentful in Storybook",
+    "unsupportedFrameworks": ["Vue",  "Angular"],
+    "supportedFrameworks": ["React"],
+    "icon": "https://yoursite.com/outline-icon.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/someone/my-addon"
+  },
   "author": "Anil Kumar Krishnashetty",
   "license": "MIT",
   "dependencies": {
